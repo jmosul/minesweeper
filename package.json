@@ -1,0 +1,49 @@
+{
+  "name": "NAME",
+  "version": "0.0.0",
+  "description": "DESC",
+  "main": "/demo/index.html",
+  "scripts": {
+    "pretest": "echo \"Starting Karma Tests\"",
+    "test": "node_modules/karma/bin/karma start karma.conf.js",
+    "test-debug": "node_modules/karma/bin/karma start karma.conf.js --log-level debug --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmosul/REPO.git"
+  },
+  "author": "James O'Sullivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designmynight/dmn/issues"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "angular": "^1.4.7",
+    "angular-mocks": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.6.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.0",
+    "jasmine": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-matchers": "^3.0.1",
+    "karma-spec-reporter": "0.0.26",
+    "moment": "^2.17.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.8.0"
+  }
+}

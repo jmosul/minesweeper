@@ -1,0 +1,36 @@
+{
+  "filenames":{
+    "src": {
+      "js": [
+        "./src/js/constants/*.js",
+        "./src/js/services/*.js",
+        "./src/js/factories/*.js",
+        "./src/js/filters/*.js",
+        "./src/js/controllers/*.js",
+        "./src/js/directives/*.js",
+        "./src/js/*.js"
+      ],
+      "tpls": "./src/templates/**/*.html",
+      "sass": "./src/scss/style.scss"
+    },
+    "dist": {
+      "js": "app.js",
+      "tpls": "app-tpls.js",
+      "bundle": "app-package.js"
+    }
+  },
+  "paths" : {
+    "src" : {
+      "js" : "./src/js/",
+      "tpls" : "./src/templates/"
+    },
+    "dist" : {
+      "js" : "./dist/js",
+      "css" : "./dist/css"
+    }
+  },
+  "modules": {
+    "tpls": "app.templates"
+  },
+  "tpls_path": "/templates/"
+}
